@@ -18,7 +18,7 @@ from google.genai import types
 load_dotenv()
 
 APP_TITLE = 'Invoice / receipt Analyzer'
-MODEL = 'gemini-2.5-flash'
+MODEL = 'gemini 2.5-flash'
 OUTPUT_DIR = Path('outputs') # outputs라는 폴더 경로 지정
 OUTPUT_DIR.mkdir(exist_ok=True) # 폴더 만든다 - 이미 있으면 그냥 넘어간다.
 
